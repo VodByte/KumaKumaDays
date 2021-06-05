@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: b30fa7c37b07da344a41cb16fcd8a510
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - CrashEffect: {fileID: 187952, guid: c05e92eaee7a00844867e5edc8e0dde1, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

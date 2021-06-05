@@ -1,0 +1,26 @@
+Folder content:
+	├ Backup: almost deprecated things.
+	├ Balloon: Scripts for Balloon game scene.
+	├ JoyconLib_Scripts: Joy-con lib file.
+	├ MainMenu: Scripts for title scene.
+	├ Marathon: Scripts for marathon game scene.
+	├ Result: Scripts for result scene.
+	├ Tuts: Scripts for two tutorial scenes.
+	└ Others: High-level manager scripts and Audio system.
+	
+Interface:
+	IReactionable:
+		Obj that reaction with player should use interface "IReactionable".
+		Declared three method for behavior when touched/staying/exit.
+
+Level flow:
+	MainMenu(Title)->BalloonGameTut->BalloonGame->PremarathonGameCutScene->MarathonGameTut->MarathonGame
+			->GoodEnding
+	->result
+			->BadEnding
+
+Notice:
+	UnityObj should not use "obj == null" or "obj ??" or "obj?."
+	https://stackoverflow.com/questions/56875706/how-am-i-misusing-the-null-coalescing-operator-is-this-evaluating-null-correc
+	
+	Seems like overused singleton pattern.
